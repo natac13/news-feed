@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import NewsFeed from './NewsFeed'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Demo News Feed</h1>
+        <p>by: Sean Campbell</p>
       </header>
+      <main className="news">
+        <NewsFeed />
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
