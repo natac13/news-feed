@@ -43,5 +43,5 @@ const useNewsArticles = (country = 'ca', category = 'general', page = 1) => {
 
   return { response, error, isLoading, refetch }
 }
-
+  //comment to flag this file for code review
 export default useNewsArticles
